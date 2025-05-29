@@ -61,7 +61,7 @@ export default function LineChart({ data, borderColor = '#10b981'}: LineChartPro
   }, [data, borderColor]);
 
   return (
-    <div className="chart-container h-20 mt-2">
+    <div className="relative w-full aspect-[5/1] mt-2">
       <canvas ref={chartRef}></canvas>
     </div>
   );
