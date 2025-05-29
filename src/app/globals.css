@@ -95,3 +95,24 @@ body {
 .negative-change {
     color: #ef4444;
 }
+
+.sector-filter {
+    transition: all 0.2s ease;
+}
+
+.sector-filter:hover {
+    transform: scale(1.05);
+}
+
+.sector-filter.active {
+    background-color: #3b82f6;
+    color: white;
+}
+
+.table-row {
+    transition: background-color 0.2s ease;
+}
+
+.table-row:hover {
+    background-color: #f8fafc;
+}
