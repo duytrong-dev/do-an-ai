@@ -24,7 +24,7 @@ export default function ThongTinSan () {
         }
     
         fetchIndices();
-        const intervalId = setInterval(fetchIndices,5000);
+        const intervalId = setInterval(fetchIndices,10000);
     
         return () => clearInterval(intervalId);
     }, []);

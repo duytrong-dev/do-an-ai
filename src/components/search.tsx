@@ -25,7 +25,7 @@ export default function Search() {
     }
 
     fetchIndices();
-    const intervalId = setInterval(fetchIndices,5000);
+    const intervalId = setInterval(fetchIndices,10000);
 
     return () => clearInterval(intervalId);
   }, []);
