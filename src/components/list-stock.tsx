@@ -29,7 +29,7 @@ export default function ListStock() {
       }
   
       fetchIndices();
-      const intervalId = setInterval(fetchIndices,1000);
+      const intervalId = setInterval(fetchIndices,500);
   
       return () => clearInterval(intervalId);
     }, []);

@@ -25,7 +25,7 @@ export default function TopStocks() {
 
     fetchData(); // gọi lần đầu
 
-    const interval = setInterval(fetchData, 10000); // gọi lại mỗi 5 giây
+    const interval = setInterval(fetchData, 5000); // gọi lại mỗi 5 giây
 
     return () => clearInterval(interval); // dọn dẹp interval khi unmount
   }, []);
