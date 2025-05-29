@@ -6,6 +6,7 @@ import { usePathname } from 'next/navigation';
 const navLinks = [
   { label: "Trang chủ", href: "/" },
   { label: "Cổ phiếu", href: "/stocks" },
+  { label: "Phân tích", href: "/analysis" },
   { label: "Tin tức", href: "/news" },
   { label: "Dự đoán với LSTM", href: "http://localhost:8501" },
 ];
